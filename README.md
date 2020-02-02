@@ -17,5 +17,5 @@ Um die Mustersatzung so zu individualiseren, dass sie der Fachschaft zum Beschlu
 ##### Name der Fachschaft
 Mit `\newcommand{\fachschaft}{Musterfachschaft}` wird der Name der Fachschaft eingestellt. Einfach Musterfachschaft durch den Namen der Fachschaft ersetzen.
 
-##### 
-Mit \newcommand{\fsrgroesse}{neun} wird die Größe des FSR festgelegt.
+##### Größe des FSR
+Mit `\newcommand{\fsrgroesse}{neun}` wird die Größe des FSR festgelegt. Diese Größe muss nach der Fachschaftswahlordnung zwischen 5 und 9 liegen. Um bei Abstimmungen ein Patt zu vermeiden, sollte eine ungerade Zahl, also 5, 7 oder 9 gewählt werden. Die Variable wird geändert, indem anstelle von "neun" die gewünschte Zahl kleingeschrieben eingefügt wird, sodass sie sich in den Satz "Der FSR besteht aus **neun** regulären Mitgliedern." einfügt.
