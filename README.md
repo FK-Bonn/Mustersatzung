@@ -4,7 +4,8 @@ Diese Mustersatzung ist mit der Textsatzsprache LaTeX geschrieben - für diejeni
 
 ### Erabeitung der Beschlussvorlage
 Um die Mustersatzung so zu individualiseren, dass sie der Fachschaft zum Beschluss vorgelegt werden kann, müssen einige Variablen angepasst werden. Diese befinden sich direkt zu Beginn des Dokuments im Bereich "Variablen".
-``` %=================== VARIABLEN ========================
+``` 
+%=================== VARIABLEN ========================
 \newcommand{\fachschaft}{Musterfachschaft}
 \newcommand{\beschlussgremium}{FSV} %FSV oder FSVV
 \newcommand{\beschlussdatum}{01.01.2020} %DD.MM.YYYY
