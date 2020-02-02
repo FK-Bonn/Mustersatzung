@@ -21,3 +21,4 @@ Mit `\newcommand{\fachschaft}{Musterfachschaft}` wird der Name der Fachschaft ei
 Mit `\newcommand{\fsrgroesse}{neun}` wird die Größe des FSR festgelegt. Diese Größe muss nach der Fachschaftswahlordnung zwischen 5 und 9 liegen. Um bei Abstimmungen ein Patt zu vermeiden, sollte eine ungerade Zahl, also 5, 7 oder 9 gewählt werden. Die Variable wird geändert, indem anstelle von "neun" die gewünschte Zahl kleingeschrieben eingefügt wird, sodass sie sich in den Satz "Der FSR besteht aus **neun** regulären Mitgliedern." einfügt.
 
 #### Beschlussgremium
+Mit `\newcommand{\beschlussgremium}{FSV}` wird das Gremium, welches die Satzung beschließt, angepasst. Dafür kommt entweder die Fachschaftsvertretung (FSV) oder die Fachschaftsvollversammlung (FSVV) in Frage. 
