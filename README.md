@@ -25,3 +25,6 @@ Mit `\newcommand{\fsrgroesse}{neun}` wird die Größe des FSR festgelegt. Diese 
 Mit `\newcommand{\beschlussgremium}{FSV}` wird das Gremium, welches die Satzung beschließt, angepasst. Dafür kommt entweder die Fachschaftsvertretung (FSV) oder die Fachschaftsvollversammlung (FSVV) in Frage. 
 
 ### Beschluss der Satzung
+Nach Anpassung der Beschlussvorlage wird das Dokument kompiliert und das resultierende PDF an das zuständige Beschlussorgan geschickt. Soweit eine FSV besteht, beschließt sie mit der Mehrheit von 2/3 ihrer Mitglieder; Ansonsten beschließt die FSVV mit der Mehrheit der anwesenden Fachschaftsmitglieder.
+
+### Fertigstellung für die Veröffentlichung
