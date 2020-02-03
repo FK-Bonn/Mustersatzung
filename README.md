@@ -31,4 +31,13 @@ Nach Anpassung der Beschlussvorlage wird das Dokument kompiliert und das resulti
 #### Aktivierung der finalen Version
 Um die "Beschlussempfehlung"-Markierungen zu entfernen, muss die Variable `\setboolean{publish}{false}` von `false` auf `true` geändert werden.
 
-#### Beschlussorgan
+#### Beschlussgremium
+Bei `\newcommand{\beschlussgremium}{FSV}` wird das Organ, welches die Satzung beschlossen hat, eingetragen, also entweder `FSV`oder `FSVV`.
+
+#### Beschlussdatum
+Bei `\newcommand{\beschlussdatum}{01.01.2020}` wird das Datum, an dem die Satzung beschlossen wurde, im Format DD.MM.YYYY eingetragen.
+
+#### Vorsitz des Beschlussgremiums
+Bei `\newcommand{\vorsitz}{Max Mustermann}` wird der Name des/der Vorsitzenden des Beschlussgremiums, also entweder dem FSV-Vorsitzenden oder dem Versammlungsleiter der FSVV, eingetragen.
+
+### Bekanntmachung
