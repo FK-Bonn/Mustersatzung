@@ -3,7 +3,7 @@
 Diese Mustersatzung ist mit der Textsatzsprache LaTeX geschrieben - für diejenigen, die mit LaTeX nicht vertraut sind, mag das abschreckend wirken, deshalb soll hier kurz erklärt werden, wie die Mustersatzung auf die individuelle Fachschaft angepasst werden kann.
 Um die Dateien zu bearbeiten, können entweder diverse Offline-Editoren verwendet werden, online geht es zum Beispiel mit [Overleaf](www.overleaf.com).
 
-### Erabeitung der Beschlussvorlage
+### Erarbeitung der Beschlussvorlage
 Um die Mustersatzung so zu individualiseren, dass sie der Fachschaft zum Beschluss vorgelegt werden kann, müssen einige Variablen angepasst werden. Diese befinden sich direkt zu Beginn des Dokuments im Bereich "Variablen".
 ``` 
 %=================== VARIABLEN ========================
@@ -23,3 +23,5 @@ Mit `\newcommand{\fsrgroesse}{neun}` wird die Größe des FSR festgelegt. Diese 
 
 #### Beschlussgremium
 Mit `\newcommand{\beschlussgremium}{FSV}` wird das Gremium, welches die Satzung beschließt, angepasst. Dafür kommt entweder die Fachschaftsvertretung (FSV) oder die Fachschaftsvollversammlung (FSVV) in Frage. 
+
+### Beschluss der Satzung
