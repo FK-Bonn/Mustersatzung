@@ -1,7 +1,7 @@
 # Mustersatzung
 ## Verwendung der Mustersatzung
 Diese Mustersatzung ist mit der Textsatzsprache LaTeX geschrieben - für diejenigen, die mit LaTeX nicht vertraut sind, mag das abschreckend wirken, deshalb soll hier kurz erklärt werden, wie die Mustersatzung auf die individuelle Fachschaft angepasst werden kann.
-Um die Dateien zu bearbeiten, können entweder diverse Offline-Editoren verwendet werden, online geht es zum Beispiel mit [Overleaf](www.overleaf.com).
+Um die Dateien zu bearbeiten, können entweder diverse Offline-Editoren verwendet werden, online geht es zum Beispiel mit [Overleaf](https://www.overleaf.com).
 
 ### Erarbeitung der Beschlussvorlage
 Um die Mustersatzung so zu individualiseren, dass sie der Fachschaft zum Beschluss vorgelegt werden kann, müssen einige Variablen angepasst werden. Diese befinden sich direkt zu Beginn des Dokuments im Bereich "Variablen".
@@ -41,4 +41,4 @@ Bei `\newcommand{\beschlussdatum}{01.01.2020}` wird das Datum, an dem die Satzun
 Bei `\newcommand{\vorsitz}{Max Mustermann}` wird der Name des/der Vorsitzenden des Beschlussgremiums, also entweder dem FSV-Vorsitzenden oder dem Versammlungsleiter der FSVV, eingetragen.
 
 ### Bekanntmachung
-Die Satzung wird kompiliert und ist damit fertig, das resultierende PDF sollte aber sicherheitshalber noch einmal kontrolliert werden. Die fertige Fassung wird per Email zur Kenntnisnahme an das [Fachschaftenreferat](http://www.asta-bonn.de/Fachschaftenreferat) und das [Präsidium des Studierendenparlaments](https://www.sp.uni-bonn.de/kontakt/) geschickt, sowie an die [Öffentlichkeitsbeauftragte](https://sp.uni-bonn.de/bekanntmachungen/howto) zur Bekanntmachung.
+Die Satzung wird kompiliert und ist damit fertig, das resultierende PDF sollte aber sicherheitshalber noch einmal kontrolliert werden. Die fertige Fassung wird **vor dem Beschluss** per Email zur Kenntnisnahme an das [Fachschaftenreferat](http://www.asta-bonn.de/Fachschaftenreferat) und das [Präsidium des Studierendenparlaments](https://www.sp.uni-bonn.de/kontakt/) geschickt, und **nach dem Beschluss** an die [Öffentlichkeitsbeauftragte](https://sp.uni-bonn.de/bekanntmachungen/howto) zur Bekanntmachung.
