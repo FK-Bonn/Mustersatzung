@@ -11,9 +11,9 @@ Um die Mustersatzung so zu individualiseren, dass sie der Fachschaft zum Beschlu
 \newcommand{\beschlussgremium}{FSV} %FSV oder FSVV
 \newcommand{\beschlussdatum}{01.01.2020} %DD.MM.YYYY
 \newcommand{\vorsitz}{Max Mustermann} %Vorsitzender
-\setboolean{publish}{false} %1 - Beschlussvorlage, 2 - Veröffentlichung
+\setboolean{publish}{false} %false - Beschlussvorlage, true - Veröffentlichung
 \newcommand{\fsrgroesse}{neun}
-%====================================================
+%======================================================
 ```
 #### Name der Fachschaft
 Mit `\newcommand{\fachschaft}{Musterfachschaft}` wird der Name der Fachschaft eingestellt. Dazu wird `Musterfachschaft` zwischen den geschweiften Klammern durch den Namen der Fachschaft ersetzt. Am Beispiel der Fachschaft Romanistik sähe das dann so aus: `\newcommand{\fachschaft}{Romanistik}`.

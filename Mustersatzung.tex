@@ -8,16 +8,24 @@
 \usepackage{hyperref}
 \usepackage{ifthen}
 \usepackage{color}
-\newboolean{publish}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
+% Disable hyphenation for better copy-pasteability
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+% Disable page numbers for better copy-pasteability
+\pagenumbering{gobble}
+
+\newboolean{publish}
 
 %=================== VARIABLEN ========================
 \newcommand{\fachschaft}{Musterfachschaft}
 \newcommand{\beschlussgremium}{FSV} %FSV oder FSVV
 \newcommand{\beschlussdatum}{01.01.2020} %DD.MM.YYYY
 \newcommand{\vorsitz}{Max Mustermann} %Vorsitzender
-\setboolean{publish}{false} %1 - Beschlussvorlage, 2 - Veröffentlichung
+\setboolean{publish}{false} %false - Beschlussvorlage, true - Veröffentlichung
 \newcommand{\fsrgroesse}{neun}
 %======================================================
 
@@ -45,7 +53,7 @@ folgende Satzung gegeben.
 \part{Fachschaft}
 \section{Begriffsbestimmung und Rechtsstellung}
 \begin{enumerate}[(1)]
-\item Die Fachschaft \fachschaft , nachfolgend bezeichnet als „Fachschaft“, bilden alle Studierenden, die in den der Fachschaft \fachschaft zugeordneten Studienfächern im Hauptfach eingeschrieben sind. Die Zuordnung erfolgt gemäß der Anlage „Fachschaftenliste“ zur Geschäftsordnung der Fachschaftenkonferenz (FKGO) (vgl. §22 SdS).
+\item Die Fachschaft \fachschaft , nachfolgend bezeichnet als „Fachschaft“, bilden alle Studierenden, die in den der Fachschaft \fachschaft\ zugeordneten Studienfächern im Hauptfach eingeschrieben sind. Die Zuordnung erfolgt gemäß der Anlage „Fachschaftenliste“ zur Geschäftsordnung der Fachschaftenkonferenz (FKGO) (vgl. §~22 SdS).
 \item Die Fachschaft vertritt die spezifischen Interessen ihrer Mitglieder. Sie vertritt darüber hinaus im Rahmen ihrer Möglichkeiten Belange von Studierenden, die an einem Studienangebot eines Faches teilnehmen, das der Fachschaft zugeordnet ist, auch wenn diese Studierende nicht Mitglieder der Fachschaft sind.
 \end{enumerate}
 
@@ -70,7 +78,7 @@ folgende Satzung gegeben.
 
 \part{Die Fachschaftsvertretung (FSV)}
 \section{Rechtsstellung der FSV}
-Die FSV ist Beschlussorgan der Fachschaft. (vgl. § 27 Abs. 3 SdS)
+Die FSV ist Beschlussorgan der Fachschaft. (vgl. §~27 Absatz 3 SdS)
 
 \section{Zusammensetzung und Zusammentritt der FSV}
 \begin{enumerate}[(1)]
@@ -116,7 +124,7 @@ Die FSV ist Beschlussorgan der Fachschaft. (vgl. § 27 Abs. 3 SdS)
 		\item die FSVV,
 		\item fünf Prozent der Mitglieder der Fachschaft 
 	\end{enumerate}
-	dies unter Angabe von zu behandelnden Tagesordnungspunkten in Textform verlangen. Enthält das Verlangen keinen Sitzungstermin, so ist die FSV innerhalb von zwei Wochen einzuberufen. Die Ladungsfrist nach § 5 Abs. 3 muss eingehalten werden.
+	dies unter Angabe von zu behandelnden Tagesordnungspunkten in Textform verlangen. Enthält das Verlangen keinen Sitzungstermin, so ist die FSV innerhalb von zwei Wochen einzuberufen. Die Ladungsfrist nach §~5 Absatz 3 muss eingehalten werden.
 	\item Bei Abwesenheit oder sonstiger Verhinderung wird der FSV-Vorsitzende durch den stellvertretenden FSV-Vorsitzenden vertreten.
 	\item Bei Abwesenheit oder sonstiger Verhinderung wird der stellvertretende FSV-Vorsitzende durch den Schriftführer vertreten.
 	\item Bei Abwesenheit oder sonstiger Verhinderung wird der Schriftführer durch das älteste anwesende FSV-Mitglied vertreten.
@@ -167,7 +175,8 @@ Die FSV ist Beschlussorgan der Fachschaft. (vgl. § 27 Abs. 3 SdS)
 
 \section{Zusammensetzung des FSR}
 \begin{enumerate}[(1)]
-    \item Der FSR besteht aus \fsrgroesse \ regulären Mitgliedern.
+    \item Der FSR besteht aus \fsrgroesse\ regulären Mitgliedern.
+    \item Falls die FSV nach §~27 Absatz 5 SdS zusätzliche Referentinnen in den FSR wählt, vergrößert sich die Zahl der FSR-Mitglieder entsprechend.
     \item Der FSR-Vorstand besteht aus:
 	\begin{enumerate}[1.]
 		\item dem Vorsitzenden,
